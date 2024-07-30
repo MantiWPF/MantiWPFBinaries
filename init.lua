@@ -1,7 +1,7 @@
 print("MantiWPF is Injected!")
 game:GetService("StarterGui"):SetCore("SendNotification",{
     Title = "MantiWPF",
-    Text = "Manti API is Injected!", 
+    Text = "[+] Adding game:HttpGet", 
     Duration = 5
 })
 getgenv().HttpGet = function(url)
